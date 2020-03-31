@@ -1,10 +1,19 @@
 # cljs-starter
 
-A Clojure library designed to ... well, that part is up to you.
+This follows the setup described in the om.next quick
+start [guide](https://github.com/omcljs/om/wiki/Quick-Start-%28om.next%29).
 
 ## Usage
 
-FIXME
+To start the figwheel repl, run the following command:
+```sh
+lein run -m clojure.main scripts/start-figwheel-repl.clj
+```
+
+If you are using IntelliJ IDEA + Cursive, the .idea folder 
+contains a run configuration which you can use to start the
+repl from within IntelliJ. Just run the `FIGWHEEL REPL`
+configuration, usually found on the top right.
 
 ## License
 
